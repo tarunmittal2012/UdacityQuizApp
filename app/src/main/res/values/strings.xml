@@ -1,0 +1,62 @@
+<resources>
+    <string name="title">Welcome to Quiz..</string>
+    <string name="text1">Remaining Time</string>
+    <string name="time">00:00</string>
+    <string name="app_name">Project3</string>
+    <string name="anshint">Enter the answer</string>
+    <string name="Que1">Question1 : </string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="Que2">Question2 : </string>
+    <string name="Que3">Question3 : </string>
+    <string name="Que4">Question4 : </string>
+    <string name="Que5">Question5 : </string>
+    <string name="Q1">What is splash screen in Android?</string>
+    <string name="Q1A">Initial activity of an application</string>
+    <string name="Q1B">Initial service of an application</string>
+    <string name="Q1C"> Initial method of an application</string>
+    <string name="Q1D">Initial screen of an application</string>
+    <string name="button1">Start Quiz</string>
+    <string name="Q2">What is ADB in android?</string>
+    <string name="Q2A">Image tool</string>
+    <string name="Q2B">Development tool</string>
+    <string name="Q2C">Android Debug Bridge</string>
+    <string name="Q2D">None of the above</string>
+    <string name="Q3">Name attribute of TextView</string>
+    <string name="Q3A">android:id</string>
+    <string name="Q3B">android:capitalize</string>
+    <string name="Q3C">android:textName</string>
+    <string name="Q3D">android:code</string>
+    <string name="Q4">Name 8th Version of Android </string>
+    <string name="Q4A">TaskView</string>
+    <string name="Q4B">EditText</string>
+    <string name="Q4C">ImageButton</string>
+    <string name="Q4D">All of the above</string>
+    <string name="Q5">Name the component of android user interface?</string>
+    <string name="Q6">An XML file in which each application define, describe the application"\'"s package name, version, component?</string>
+    <string name="Q6A">Manifest file</string>
+    <string name="Q6B">Dialog</string>
+    <string name="Q6C">.apk</string>
+    <string name="Q6D">.dex file</string>
+    <string name="ScoreText">SCORE:</string>
+    <string name="hint">Enter  your Name :</string>
+    <string name="dialogTitle">Quiz Complete</string>
+    <string name="dialogMessage">You got :</string>
+
+    <string name="remark1">You are awesome</string>
+    <string name="remark2">You are Good</string>
+    <string name="remark3">Try to put some effort</string>
+    <string name="remark4">Do again</string>
+
+    <string name="shb0">emcm</string>
+    <string name="directSubmit">Try again</string>
+
+    <string name="Instruction">Instructions:</string>
+    <string name="I1">  Total number of questions: 5</string>
+    <string name="I2">  Once you click start quiz yor times start.</string>
+    <string name="I3">  Click the Finish Quiz button to submit test.</string>
+    <string name="I4">Try to do all questions.</string>
+    <string name="I5">When time is completed your test automatically end.</string>
+    <string name="I6">You can reset your test once only.</string>
+    <string name="proceedNext">Proceed Next</string>
+</resources>

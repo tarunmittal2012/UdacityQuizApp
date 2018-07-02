@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text1Size">24sp</dimen>
+    <dimen name="padding">16dp</dimen>
+    <dimen name="viewHeight">3dp</dimen>
+    <dimen name="marginTop">16dp</dimen>
+    <dimen name="headsize">20sp</dimen>
+    <dimen name="quessize">16sp</dimen>
+    <dimen name="titleSize">32sp</dimen>
+    <dimen name="insSize">20sp</dimen>
+</resources>

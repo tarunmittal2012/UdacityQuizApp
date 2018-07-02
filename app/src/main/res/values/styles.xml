@@ -1,0 +1,129 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="titleText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/titleSize</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">@string/title</item>
+        <item name="android:fontFamily">verdana</item>
+
+    </style>
+
+    <style name="Text1" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/text1Size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="nameEditText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:hint">@string/hint</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="instructionText" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:text">@string/Instruction</item>
+        <item name="android:layout_marginLeft">@dimen/marginTop</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:textSize">@dimen/text1Size</item>
+    </style>
+    <style name="instructions" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:drawableLeft">@drawable/ic_star</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:textSize">@dimen/insSize</item>
+        <item name="android:paddingTop">@dimen/padding</item>
+    </style>
+
+    <style name="QuesAnswer" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:hint">@string/anshint</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textAlignment">textStart</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="button" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/ripple</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/padding</item>
+    </style>
+
+    <style name="questions" parent="TextAppearance.AppCompat.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:fontFamily">times new roman</item>
+        <item name="android:textSize">@dimen/quessize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="QuestionHeadline" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">times new roman</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_marginTop">@dimen/marginTop</item>
+        <item name="android:textSize">@dimen/headsize</item>
+    </style>
+
+    <style name="radiogroup" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="radiobutton" parent="TextAppearance.AppCompat.Large">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">verdana</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:buttonTint" tools:targetApi="lollipop">@color/white</item>
+        <item name="android:textSize">@dimen/quessize</item>
+    </style>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.tarunmittal.project3.FrontPage">
+
+    <TextView
+        android:id="@+id/titleText"
+        style="@style/titleText"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/instructionText"
+                    />
+
+                <TextView
+                    style="@style/instructions"
+                    android:text="@string/I1"/>
+
+                <TextView
+                    style="@style/instructions"
+                    android:text="@string/I2"/>
+
+                <TextView
+                    style="@style/instructions"
+                    android:text="@string/I3"/>
+
+                <TextView
+                    style="@style/instructions"
+                    android:text="@string/I4"/>
+
+                <TextView
+                    style="@style/instructions"
+                    android:text="@string/I5"/>
+
+                <Button
+                    android:id="@+id/startPage"
+                    style="@style/button"
+                    android:layout_marginTop="@dimen/marginTop"
+                    android:onClick="setNextpage"
+                    android:text="@string/proceedNext"/>
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</LinearLayout>
